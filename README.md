@@ -179,29 +179,7 @@ Dit script vormde de basis voor een groot deel van de verdere analyses binnen de
 
 ## 4. NTCP-modellen
 
-Deze scripts zijn gebruikt voor het berekenen van voorspelde toxiciteitsrisico's op basis van bestaande NTCP-modellen.
-
-### `pneumonia_model.py`
-
-Implementatie van het UMCG NTCP-model voor pneumonie.
-
-**Functionaliteit**
-- Berekent het voorspelde risico op pneumonie;
-- Gebruikt patiënt- en dosimetrische kenmerken als invoer;
-- Dient als basis voor cohortbrede NTCP-analyses.
-
----
-
-### `Cohort NTCP pneumonia.py`
-
-Past het UMCG pneumonie-NTCP-model toe op alle plannen binnen het cohort.
-
-**Functionaliteit**
-- Doorloopt alle plannen binnen het cohort;
-- Berekent NTCP-scores voor pneumonie;
-- Exporteert de resultaten voor verdere analyse.
-
----
+Dit script is gebruikt voor het berekenen van voorspelde toxiciteitsrisico's op basis van een bestaand NTCP-model.
 
 ### `Cohort NTCP NIPP.py`
 
